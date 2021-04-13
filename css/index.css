@@ -363,7 +363,7 @@ select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(../images/selArrow.png) !important;
+  background-image: url(../images/selArrow.svg) !important;
   background-repeat: no-repeat;
   background-position: 98%
 }
