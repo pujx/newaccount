@@ -302,8 +302,9 @@ body.modal-open {
 
 .common-btn {
   display: block;
-  margin: 17px 0 0 0
+  /*margin: 17px 0 0 0*/
 }
+.modal .common-btn{margin-top: 20px;}
 .common-btn a{display: inline-block;}
 .common-btn i {
   vertical-align: middle
@@ -472,7 +473,7 @@ textarea:focus {
 }
 
 .form-group {
-  margin-bottom: 23px
+  margin-bottom: 20px
 }
 
 .form-group label em {
@@ -1038,7 +1039,7 @@ font-size: 30px;
 
 .legal-box {
   width: 1135px;
-  margin: 0 auto
+  margin: 0 auto 20px;
 }
 
 .d-flex {
@@ -1118,7 +1119,6 @@ font-size: 30px;
 
 .legal-pdf-box .pdf-text span {
   display: block;
-  font-weight: bold;
   font-size: 16px;
   font-weight: bold
 }
@@ -1498,7 +1498,7 @@ font-size: 22px;
   }
 
   .step7-item a {
-    padding: 10px 0;
+    padding: 5px 0;
   }
 
   .step7-item p {
@@ -1571,14 +1571,13 @@ font-size: 22px;
 }
 
 @media screen and (min-width:992px) and (max-width: 1199px) {
-  .legal-box {
-    width: 100%;
-  }
-
   .step5 .page-title2 {
     margin-left: 0;
   }
-
+.legal-box .legal-text-box{height: 150px;}
+.legal-text-box .legal-text-detail{height: 130px;}
+.legal-text-detail .legal-logo{margin-bottom: 10px;}
+.legal-pdf-box .pdf-text span{font-size: 15px;}
   .step7-l-box {
     padding-left: 140px;
   }
@@ -1593,8 +1592,6 @@ font-size: 22px;
 
   .step7-r-box {
     width: 100%;
-    margin-top: 0;
-    margin-left: 0
   }
 
   .step7-item p {
@@ -1638,7 +1635,7 @@ font-size: 22px;
 @media screen and (min-width:992px) {}
 
 @media screen and (max-width:991px) {
-.modal-call-back>div{padding: 10px 2px;}
+	.modal-call-back>div{padding: 10px 2px;}
   .stepPage {
     padding-bottom: 100px;width: 100%;
   }
@@ -1663,10 +1660,6 @@ font-size: 22px;
     bottom: auto;
   }
 
-  .step1 .bottom-progress-text {
-    /*top: 15px;*/
-  }
-
   #page7.stepPage {
     padding-bottom: 0;
   }
@@ -1675,14 +1668,11 @@ font-size: 22px;
     width: 75%;
    bottom: 10px;
   }
-
-  .form-control {
+.legal-pdf-box i{margin-left: 5px;}
+  .form-control,.chosen-container-single .chosen-single {
    height: 42px;
   }
-
-  .chosen-container-single .chosen-single {
-   height: 42px;
-  }
+  .step4{position: relative;}
 
   .step2 .step1-name,
   .step3 .step1-name,
