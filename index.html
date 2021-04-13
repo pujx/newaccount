@@ -429,6 +429,18 @@
 				</div>
 				<div id="page5" class="stepPage" style="display: block;">
 					<div class="step5">
+					<style type="text/css">
+.legal-text-detail {
+	/*padding: 40px;
+	height: 220px;
+	width: 300px;
+	border: 2px solid #00F;*/
+	overflow: auto;
+  /*margin-bottom:20px;*/
+}
+.nicescroll-rails{border-radius: 10px;}
+
+</style>
 						<h1 class="step5-name">&nbsp;</h1>
 						<div class="container">
 							<h4 class="page-title page-title2">Terms & Conditions</h4>
@@ -443,9 +455,6 @@
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias rerum placeat ea quibusdam culpa sit quisquam impedit ipsam repudiandae deleniti. Reprehenderit culpa sequi ea tempora doloremque neque quis dolorem mollitia?</p>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fuga animi molestiae in tempora ex et reprehenderit sequi fugiat laboriosam unde repellendus dolorum suscipit voluptates sint aliquid esse eveniet veritatis.</p>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsum minus obcaecati ad perferendis possimus saepe aliquid nemo suscipit corporis quia esse incidunt vero autem magnam libero earum delectus omnis?</p>
-									</div>
-									<div class="scroll_bar bor10">
-										<div class="scroll_slider bor10"></div>
 									</div>
 								</div>
 								<div class="legal-download-box">
@@ -1176,9 +1185,6 @@
 								</div>
 		
 		<!--error box end-->
-		
-		
-		
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/chosen-1.1.8.min.js"></script>
@@ -1186,17 +1192,27 @@
 		<script src="js/cropper.min.js"></script>
 		<script src="js/cropper.js"></script>
 		<script src="js/telInput.js"></script>
-		<script src="https://www.jq22.com/demo/jqueryzdygdt201808221029/js/scrollbar.js"></script>
+		<!--<script src="js/jquery.nicescroll.min.js"></script>-->
+		<script src="https://www.jq22.com/demo/jquery.nicescroll201711192354/jquery.nicescroll.min.js"></script>
 		<script src="js/jquery-confirm.min.js"></script>
 		<script src="js/steps-animate.js"></script>
 		<script src="js/common.js"></script>
-		<script type="text/javascript">
-    new CusScrollBar({
-      contentSelector: '.legal-text-detail', //滚动内容区
-      barSelector: '.scroll_bar', //滚动条
-      sliderSelector: '.scroll_slider' //滚动滑块
+		<script>
+  $(document).ready(function() {
+    $(".legal-text-detail").niceScroll({
+    	cursorborder:"#e6e6e6",
+    	cursorcolor:"#003b4d",
+    	boxzoom:false,
+    	autohidemode:false,
+    	cursoropacitymax: 1, //滚动条的透明度，从0-1 
+    	cursorborderradius: "8px",
+    	cursorwidth: "10px",
+    	background:"#e6e6e6",  //滚动条的背景色，默认是透明的
+    
     });
+  });
 </script>
+		
 		<script type="text/javascript">
 		
 			$(document).ready(function() {
@@ -1234,6 +1250,9 @@
 				clickAble: false
 			})
 		</script>
+	
+	
+	
 	</body>
 
 </html>
