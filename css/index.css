@@ -120,45 +120,6 @@ li {
     width: 1540px
   }
 }
-
-.jconfirm .jconfirm-box.jconfirm-type-orange {
-  border-top: solid 7px #003b4d !important
-}
-
-@-webkit-keyframes type-orange {
-
-  1%,
-  100% {
-    border-color: #003b4d
-  }
-
-  50% {
-    border-color: #003b4d
-  }
-}
-
-@keyframes type-orange {
-
-  1%,
-  100% {
-    border-color: #003b4d
-  }
-
-  50% {
-    border-color: #003b4d
-  }
-}
-
-.jconfirm .jconfirm-box .jconfirm-buttons button.btn-orange {
-  background-color: #003b4d;
-  -webkit-animation-name: none;
-  animation-name: none
-}
-
-.jconfirm .jconfirm-box .jconfirm-buttons button.btn-orange:hover {
-  background-color: #095d77
-}
-
 .jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons button,
 .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons button {
   text-transform: capitalize;
@@ -167,31 +128,35 @@ li {
 }
 
 .jconfirm .jconfirm-box.jconfirm-type-orange {
-  border-top: solid 7px #003b4d !important
+	border-top: solid 7px #003b4d !important;
 }
-
 @-webkit-keyframes type-orange {
-
-  1%,
-  100% {
-    border-color: #595757
-  }
-
-  50% {
-    border-color: #595757
-  }
+	1%,
+	100% {
+		border-color:#003b4d;
+	}
+	50% {
+		border-color:#003b4d;
+	}
 }
 
 @keyframes type-orange {
+	1%,
+	100% {
+		border-color:#003b4d;
+	}
+	50% {
+		border-color:#003b4d;
+	}
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-orange {
+	background-color:#003b4d;
+	-webkit-animation-name: none;
+	animation-name: none;
+}
 
-  1%,
-  100% {
-    border-color: #595757
-  }
-
-  50% {
-    border-color: #595757
-  }
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-orange:hover {
+    background-color:#095d77;
 }
 
 .chosen-container .chosen-results::-webkit-scrollbar {
@@ -302,8 +267,11 @@ body.modal-open {
 
 .common-btn {
   display: block;
-  /*margin: 17px 0 0 0*/
+ margin-top: 15px;
 }
+
+.step5 .common-btn{margin-top: 0;}
+
 .modal .common-btn{margin-top: 20px;}
 .common-btn a{display: inline-block;}
 .common-btn i {
@@ -827,7 +795,7 @@ footer .footer-box-shadow {
 .online-float-box .service {
   margin: 25px 0
 }
-
+.telList .telDropdown .selected-flag{z-index: 0;}
 .pageCont {
   position: relative;
   min-height: 500px;
@@ -844,7 +812,8 @@ footer .footer-box-shadow {
   width: 100vw;*/
  left: 100%;
  width: 100%;
-  height: 100%
+  height: 100%;
+  background-color: #fff;
 }
 
 .stepPage:nth-of-type(1) {
@@ -854,10 +823,12 @@ footer .footer-box-shadow {
 .stepCont {
   width: 100%;
   position: relative;
-  height: 520px;
   background: #fff;
 }
-
+@media screen and (min-width: 992px){
+	
+  .stepCont {height: 520px !important;}
+}
 .ystep-container {
   position: absolute;
   width: 590px;
@@ -997,12 +968,14 @@ font-size: 30px;
 }
 
 .radiospan label {
-  cursor: pointer
+  cursor: pointer;
+  margin-bottom: 0;
+  vertical-align: middle;
 }
 
 .radiospan {
   display: inline-block;
-  margin: 15px 15px 0 15px
+  margin:12px 15px 0 15px;
 }
 
 .radiospan em {
@@ -1659,14 +1632,14 @@ font-size: 22px;
     font-size: 14px;
     bottom: auto;
   }
-
+.step1 .common-btn{margin-bottom:15px;}
   #page7.stepPage {
     padding-bottom: 0;
   }
 
   .ystep-container {
     width: 75%;
-   bottom: 10px;
+   bottom: 25px;
   }
 .legal-pdf-box i{margin-left:10px}
   .form-control,.chosen-container-single .chosen-single {
