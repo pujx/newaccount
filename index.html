@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="favicon.ico">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/jquery-confirm.min.css" />
+		<link rel="stylesheet" href="css/chosen-1.0.8.min.css" />
+		<link rel="stylesheet" href="css/cropper.min.css" />
+		<link rel="stylesheet" href="css/interInput.css" />
+		<link rel="stylesheet" href="css/upload.css" />
+		<link rel="stylesheet" href="css/Language-Lato-Light.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<!--[if lt IE 9]>
+      			<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script> 
+       <![endif]-->
+		<!--[if lte IE 8]>
+ 				<script>window.location.href='https://support.dmeng.net/upgrade-your-browser.html?referrer='+location.href;</script>
+ 		<![endif]-->
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<div class="container">
+				<a href="javascript:" class="login-logo"> <img src="images/login-logo.png" /></a>
+				<ul class="login-language pull-right">
+					<li class="right-bar-toogle right-bar-language">
+						<a href="javascript:"><img src="images/top-language.png" alt="" />&nbsp;<i class="fa fa-angle-down"></i></a>
+						<ul class="scale-up">
+							<li>
+								<a href="javascript:">中文</a>
+							</li>
+							<li>
+								<a href="javascript:">English</a>
+							</li>
+							<li>
+								<a href="javascript:">繁体中文</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</header>
+		<div class="page-line">
+			<p class="page-line-shadow"></p>
+		</div>
+		<p class="second-logo"><img src="images/logo.png" alt="" /></p>
+
+		<div class="stepCont">
+			<div class="pageCont">
+				<div id="page1" class="stepPage">
+					<div class="step1">
+						<h1 class="step1-name">START YOUR APPLICATION</h1>
+						<div class="container">
+							<h4 class="page-title">Account Profile . 1</h4>
+							<form class="form-horizontal" name="reg_testdate">
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>Family Name:</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" placeholder="Family Name*" id="familyname">
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>Given Name:</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" placeholder="Given Name*">
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>E-mail Address:</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" placeholder="Enter your email*">
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>Mobile Number:</label>
+									<div class="col-md-4">
+										<div class="changeTel">
+											<input type="text" class="form-control" placeholder="Mobile Number*" />
+											<div class="changeTelSel">
+												<em class="telLine"></em>
+												<input maxlength="30" type="text" />
+											</div>
+											<!--<i class="form-control-feedback" aria-hidden="true"><img src="images/form-check.svg" alt="" /></i>-->
+										</div>
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<!--<div class="form-group">-->
+									<div class="col-xs-12">
+										<div class="submit-btn common-btn">
+											<a href="javascript:" id="nextBtn" class="nextBtn">
+												<span><em>NEXT</em></span>
+												<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+											</a>
+										</div>
+									</div>
+								<!--</div>-->
+
+							</form>
+
+						</div>
+						<p class="bottom-progress-text">It starts here, and it only takes a few minutes.</p>
+					</div>
+
+				</div>
+				<div id="page2" class="stepPage">
+					<div class="step2">
+						<h1 class="step1-name">&nbsp;</h1>
+						<div class="container">
+							<h4 class="page-title">Account Profile . 2</h4>
+							<form class="form-horizontal" name="reg_testdate">
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>Street & Number:</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" placeholder="Street & Number*">
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>Postal/Zip Code:</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" placeholder="Postal/Zip Code*">
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<div class="form-group">
+									<label for="" class="col-md-4 control-label"><em>*</em>City/Town:</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" placeholder="City/Town*">
+									</div>
+									<p class="col-md-3 help-block"><img src="images/login-check.png" alt="" /></p>
+								</div>
+								<div class="form-group">
+									<div class="col-md-offset-4 col-md-4">
+										<div class="row">
+											<div class="col-xs-6">
+												<div class="cancel-btn common-btn">
+													<a href="javascript:" id="prevBtn" class="prevBtn">
+														<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+														<span>PREVIOUS</span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-6">
+												<div class="submit-btn common-btn">
+													<a href="javascript:" id="nextBtn" class="nextBtn">
+														<span><em>NEXT</em></span>
+														<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+													</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+				<div id="page3" class="stepPage">
+					<div class="step3">
+						<h1 class="step1-name">&nbsp;</h1>
+						<div class="container">
+							<h4 class="page-title page-title2">Personal Details</h4>
+							<form class="form-horizontal">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="" class="col-md-6 control-label"><em>*</em>Employment Status:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">Employed</option>
+													<option value="">Self-employed</option>
+													<option value="">Retired</option>
+													<option value="">Unemployed</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="" class="col-md-3 control-label"><em>*</em>Annual Income:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">Less than $25,000</option>
+													<option value="">$25,001 ~ $40,000</option>
+													<option value="">$40,001 ~ $75,000</option>
+													<option value="">$75,001 ~ $250,000</option>
+													<option value="">$250,001 ~ $1,000,000</option>
+													<option value="">More than $1,000,000</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="" class="col-md-6 control-label"><em>*</em>Industry:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">Accountancy</option>
+													<option value="">Admin / Secretarial</option>
+													<option value="">Agricultural</option>
+													<option value="">Advertising</option>
+													<option value="">Catering / Hospitality</option>
+													<option value="">Company Services</option>
+													<option value="">Creative / Media</option>
+													<option value="">Defence / Military</option>
+													<option value="">Education</option>
+													<option value="">Emergency Services</option>
+													<option value="">Energy</option>
+													<option value="">Engineering</option>
+													<option value="">Export / Import</option>
+													<option value="">Financial Services</option>
+													<option value="">Government / Public </option>
+													<option value="">Health / Medicine</option>
+													<option value="">Legal</option>
+													<option value="">Leisure / Entertainment / Manufacturing</option>
+													<option value="">Marketing / PR / Non-Governmental</option>
+													<option value="">Not for Profit / Charity Organisation</option>
+													<option value="">Pharmaceuticals</option>
+													<option value="">Precious Metals / Stones</option>
+													<option value="">Property / Construction / Retail</option>
+													<option value="">Sector</option>
+													<option value="">Social Care / Services / Tourism</option>
+													<option value="">Trade</option>
+													<option value="">Technology</option>
+													<option value="">Telecommunications</option>
+													<option value="">Transport / Logistics</option>
+													<option value="">Other</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="" class="col-md-3 control-label"><em>*</em>Your Net Assets:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">Less than $25,000</option>
+													<option value="">$25,001 ~ $50,000</option>
+													<option value="">$50,001 ~ $1,000,000</option>
+													<option value="">More than $1,000,000</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label for="" class="col-md-5 control-label"><em>*</em>Are you a US citizen or a US resident for tax purposes?</label>
+											<div class="col-md-6">
+												<span class="radiospan"><label for="step3-no">NO</label><em><input class="radio1" type="radio" id="step3-no" name="radio1"/></em></span>
+												<span class="radiospan"><label for="step3-yes">YES</label><em><input class="radio1" type="radio" id="step3-yes" name="radio1"/></em></span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-offset-4 col-md-4">
+										<div class="row">
+											<div class="col-xs-6">
+												<div class="cancel-btn common-btn">
+													<a href="javascript:" id="prevBtn" class="prevBtn">
+														<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+														<span>PREVIOUS</span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-6">
+												<div class="submit-btn common-btn">
+													<a href="javascript:" id="nextBtn" class="nextBtn">
+														<span><em>NEXT</em></span>
+														<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+													</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</form>
+
+						</div>
+						<p class="bottom-progress-text">Let us know more about you.</p>
+					</div>
+
+				</div>
+				<div id="page4" class="stepPage">
+					<div class="step4">
+						<h1 class="step4-name">&nbsp;</h1>
+						<div class="container">
+							<h4 class="page-title page-title2">Account Setup</h4>
+							<form class="form-horizontal">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="" class="col-md-6 control-label"><em>*</em>Account Type:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">STANDARD Account</option>
+													<option value="">RAW Account</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+										<div class="form-group">
+											<label for="" class="col-md-6 control-label"><em>*</em>Account Base Currency:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">USD</option>
+													<option value="">EUR</option>
+													<option value="">GBP</option>
+													<option value="">AUD</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+										<div class="form-group">
+											<label for="" class="col-md-6 control-label">Promo code/Referrer:</label>
+											<div class="col-md-5">
+												<input type="text" class="form-control" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											
+											<label for="" class="col-md-3 control-label"><em>*</em>Password:</label>
+											<div class="col-md-5">
+												<input type="password" class="form-control" placeholder="8-12digits, with numbers and letters*" />
+											</div>
+											<p class="help-block col-md-2"><img src="images/login-check.png" alt="" /></p>
+										</div>
+										<div class="form-group">
+											<label for="" class="col-md-3 control-label hidden-xs hidden-sm">&nbsp;</label>
+											<div class="col-md-5">
+												<input type="password" class="form-control" placeholder="Please retype in your password*" />
+											</div>
+											<p class="help-block col-md-2"><img src="images/login-check.png" alt="" /></p>
+										</div>
+										<div class="form-group">
+											<label for="" class="col-md-3 control-label"><em>*</em>leverage:</label>
+											<div class="col-md-5">
+												<select name="" id="" class="form-control form-control-chosen" data-placeholder="Please choose one item*">
+													<option value=""></option>
+													<option value="">1:100</option>
+													<option value="">1:200</option>
+													<option value="">1:400</option>
+													<option value="">1:500</option>
+												</select>
+											</div>
+											<p class="help-block col-md-1"><img src="images/login-check.png" alt="" /></p>
+										</div>
+
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label for="" class="col-md-3 control-label"><em>*</em>Products you’ll be trading:</label>
+											<div class="col-md-9">
+												<span class="radiospan"><label for="forex">Forex</label><em><input class="radio1" type="radio" id="forex" name="radio2"/></em></span>
+												<span class="radiospan"><label for="metals">Metals</label><em><input class="radio1" type="radio" id="metals" name="radio2"/></em></span>
+												<span class="radiospan"><label for="indices">Indices/CFD</label><em><input class="radio1" type="radio" id="indices" name="radio2"/></em></span>
+												<span class="radiospan"><label for="cfds">Share CFDs</label><em><input class="radio1" type="radio" id="cfds" name="radio2"/></em></span>
+
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="col-md-offset-4 col-md-4">
+										<div class="row">
+											<div class="col-xs-6">
+												<div class="cancel-btn common-btn">
+													<a href="javascript:" id="prevBtn" class="prevBtn">
+														<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+														<span>PREVIOUS</span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-6">
+												<div class="submit-btn common-btn">
+													<a href="javascript:" id="nextBtn" class="nextBtn">
+														<span><em>NEXT</em></span>
+														<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+													</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</form>
+
+						</div>
+						<p class="bottom-progress-text">Let us know how you want your account to be set up? </p>
+					</div>
+
+				</div>
+				<div id="page5" class="stepPage" style="display: block;">
+					<div class="step5">
+						<h1 class="step5-name">&nbsp;</h1>
+						<div class="container">
+							<h4 class="page-title page-title2">Terms & Conditions</h4>
+							<div class="legal-box">
+								<div class="legal-text-box bor8">
+									<div class="legal-text-detail">
+										<a href="javascript:" class="legal-logo"> <img src="images/login-logo.png" /></a>
+										<p>Radex Markets' financial service license allows it to provide financial services. To all investors who receive the financial services that Radex Markets provide, Radex Markets fulfils the obligations that the financial service license outlines.</p>
+										<p><b>Client Agreement Form</b>
+											<br /> Online sign up is intended to be completed in conjunction with relevant provisions of the respective Client Agreement Form.
+										</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias rerum placeat ea quibusdam culpa sit quisquam impedit ipsam repudiandae deleniti. Reprehenderit culpa sequi ea tempora doloremque neque quis dolorem mollitia?</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fuga animi molestiae in tempora ex et reprehenderit sequi fugiat laboriosam unde repellendus dolorum suscipit voluptates sint aliquid esse eveniet veritatis.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsum minus obcaecati ad perferendis possimus saepe aliquid nemo suscipit corporis quia esse incidunt vero autem magnam libero earum delectus omnis?</p>
+									</div>
+									<div class="scroll_bar bor10">
+										<div class="scroll_slider bor10"></div>
+									</div>
+								</div>
+								<div class="legal-download-box">
+									<div class="row">
+										<div class="col-md-6">
+											<a href="javascript:" class="legal-pdf-box d-flex">
+												<i><img src="images/pdf-con.png" alt="" /></i>
+												<div class="pdf-text">
+													<span class="">Finamcial-Services-Guide</span>
+													<p>This PDS explains what you need to know about the products we can offer you.</p>
+												</div>
+
+											</a>
+
+										</div>
+										<div class="col-md-6">
+											<a href="javascript:" class="legal-pdf-box d-flex">
+												<i><img src="images/pdf-con.png" alt="" /></i>
+												<div class="pdf-text">
+													<span class="">Finamcial-Services-Guide</span>
+													<p>This PDS explains what you need to know about the products we can offer you.</p>
+												</div>
+
+											</a>
+
+										</div>
+										<div class="col-md-6">
+											<a href="javascript:" class="legal-pdf-box d-flex">
+												<i><img src="images/pdf-con.png" alt="" /></i>
+												<div class="pdf-text">
+													<span class="">Risk-Disclosure-Statement</span>
+													<p>This Risk-Disclosure-Statement shall bind the parties, supplement the terms of the Account Application Form, and Terms and Conditions, and shall apply to all existing arrangements currently operating between the parties.</p>
+												</div>
+
+											</a>
+
+										</div>
+										<div class="col-md-6">
+											<a href="javascript:" class="legal-pdf-box d-flex">
+												<i><img src="images/pdf-con.png" alt="" /></i>
+												<div class="pdf-text">
+													<span class="">Finamcial-Services-Guide</span>
+													<p>This PDS explains what you need to know about the products we can offer you.</p>
+												</div>
+
+											</a>
+
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+							<div class="form-group">
+								<div class="col-md-offset-4 col-md-4">
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="cancel-btn common-btn">
+												<a href="javascript:" id="prevBtn" class="prevBtn">
+													<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+													<span>PREVIOUS</span>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="submit-btn common-btn">
+												<a href="javascript:" id="nextBtn" class="nextBtn">
+													<span><em>NEXT</em></span>
+													<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+												</a>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<p class="bottom-progress-text">Things you should know before you kick start.</p>
+					</div>
+
+				</div>
+				<div id="page6" class="stepPage">
+					<div class="step6">
+						<h1 class="step5-name">&nbsp;</h1>
+						<div class="container">
+							<h4 class="page-title page-title2">Upload Documents</h4>
+							<div class="upload-box">
+								<div class="upload-text-box">
+									<p>Please upload your valid proof of identity for your trading account at Radex Markets according to the instructions below.</p>
+									<p>Please be noted in accordance with regulatory requirements, we may require you to submit proof of address.</p>
+									<p>Your name and date of birth must be on a government-issued ID.</p>
+									<h3>We accept one of the following types of documents:</h3>
+
+										<div class="upload-file-box">
+										<form class="form-horizontal">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="" class="col-md-4 control-label"><em>*</em>Proof of identity:</label>
+														<div class="col-md-8">
+															<div class="upload-img-box upload-img-box1">
+																<a href="javascript:" class="upload-click" data-toggle="modal" data-target="#cropperModal"><img src="images/upload-icon.png" alt="" /></a>
+															</div>
+															<ul class="photo-description">
+																<li>ID Card - Front and back side.</li>
+																<li>Passport - Face photo page.</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label for="" class="col-md-4 control-label"><em>*</em>Proof of address:</label>
+														<div class="col-md-8">
+															<!-- <div class="upload-img-box"></div> -->
+																<div class="upload-img-box" id="J_upload_box1">
+																	<!-- <a href="javascript:" id="J_file_wrap1"><img src="images/upload-icon.png" alt="" /></a> -->
+                                  									<a href="javascript:" class="upload-click" data-toggle="modal" data-target="#cropperModal"><img src="images/upload-icon.png" alt=""></a>
+																</div>
+															<!-- </div> -->
+															<ul class="photo-description">
+																<li>Credit card/Bank Detail Statement.</li>
+																<li>Utility bills such as landline, electricity, gas bill, and Internet Statement.</li>
+															</ul>
+														</div>
+
+													</div>
+
+												</div>
+											</div>
+										</form>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-offset-4 col-md-4">
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="cancel-btn common-btn">
+												<a href="javascript:" id="prevBtn" class="prevBtn">
+													<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+													<span>PREVIOUS</span>
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6">
+											<div class="submit-btn common-btn">
+												<a href="javascript:" id="nextBtn" class="nextBtn">
+													<span><em>SUBMIT</em></span>
+													<i><img src="images/submit-btn-arrow.png" alt="" /></i>
+												</a>
+												<br />
+												<a href="javascript:" id="nextBtn" class="nextBtn skipBtn">skip and next</a>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<p class="bottom-progress-text">Upload your documents here.</p>
+					</div>
+
+				</div>
+				<div id="page7" class="stepPage">
+					<div class="step7">
+					<h1 class="step7-name">Now, you’re all set!</h1>
+					<div class="container">
+						<div class="row d-flex align-items-center">
+							<div class="col-xs-12 col-md-6">
+								<div class="step7-l-box">
+									<h4 class="page-title page-title3">Your Account Details</h4>
+									<ul>
+										<li><span>MT4 Login:</span><b>Chen066888</b></li>
+										<li><span>Account Name:</span><b>John Chen</b></li>
+										<li><span>Password:</span><b>N996a88688</b></li>
+										<li><span>MT4 Server:</span><b>Real_rm01</b></li>
+									</ul>
+
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<div class="step7-r-box">
+									<p class="step7-shadow"></p>
+
+									<div class="step7-item">
+										<a href="" class="d-flex align-items-center">
+											<p><img src="images/account-step1.svg" alt="" /></p>
+											<span>01</span>
+											<div class="item-right">
+												<h4>Verify</h4>
+												<em>Upload your documents if you haven’t finished it during account opening process.</em>
+											</div>
+
+										</a>
+
+									</div>
+									<div class="step7-item">
+										<a href="" class="d-flex align-items-center">
+											<p><img src="images/account-step2.svg" alt="" /></p>
+											<span>02</span>
+											<div class="item-right">
+												<h4>Fund</h4>
+												<em>Make your deposit via a range of funding options with 0 fees.</em>
+											</div>
+
+										</a>
+
+									</div>
+									<div class="step7-item">
+										<a href="" class="d-flex align-items-center">
+											<p><img src="images/account-step3.svg" alt="" /></p>
+											<span>03</span>
+											<div class="item-right">
+												<h4>Trade</h4>
+												<em>Start your trading with 350+ products: Forex, Shares, CFDs, Commodities, Indices, and Metals</em>
+											</div>
+
+										</a>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				
+				
+				</div>
+			</div>
+
+			<div class='ystep-container'></div>
+
+		</div>
+		<footer>
+			<p class="footer-box-shadow"></p>
+			<div class="footer-text">
+				<div class="container">
+					<p>Radex Markets is a trading name of GO Markets International Ltd. GO Markets International Ltd is incorporated in the Republic of Seychelles with registration number 8425985-1, and is licensed and regulated by the Seychelles Financial Services Authority (Securities Dealer License Number SD043).</p>
+					<p><b>Risk Warning:</b> Trading derivatives and leveraged products carries a high level of risk, including the risk of losing substantially more than your initial investment. It is not suitable for everyone. Before you make any decision in relation to a financial product you should obtain and consider our Product Disclosure Statement (PDS) available on our website and seek independent advice if necessary. The information on this website is of a general nature only and does not consider your objectives, financial situation or needs. Every effort is made to provide information that is accurate. However, information is subject to change at any time without notice. Radex Markets cannot guarantee, and assumes no legal liability or responsibility for, the relevance, accuracy, currency or completeness of the information. The information on this site is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
+					<p>All contents <span id="footer-year"></span> Radex Markets. All rights reserved.</p>
+				</div>
+
+			</div>
+		</footer>
+
+		<!--上传-->
+
+		<div class="modal fade" id="cropperModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="tailoring-box">
+							<form action="" class="form-horizontal">
+									<ul class="upload-address-ul">
+										<li>Credit card/Bank Detail Statement.</li>
+										<li>Utility bills such as landline, electricity, gas bill and Internet Statement.</li>
+									</ul>
+								<div class="form-group identity-dropdown">
+									<label for="" class="col-md-5 control-label"><em>*</em>Proof of identity:</label>
+									<div class="col-md-7">
+										<select class="form-control form-control-chosen" name="question" onchange="identity(this)">
+											<option value="2">ID Card</option>
+											<option value="1">Passport</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="tailoring-content">
+									<div class="tailoring-content-two">
+										<div class="tailoring-box-parcel col-sm-12" id="J_file_box">
+											<img src="" id="J_file_box_img" alt="">
+										</div>
+										<div class="preview-box-parcel hidden-xs hidden-sm">
+											<p>Preview Picture:</p>
+											<div class="square previewImg"></div>
+										</div>
+									</div>
+									<!--<div class="tailoring-content-three">
+									<button class="btn-xs buttons buttons-success cropper-rotate-btnL" type="button"><i class="fa fa-rotate-left"></i></button>
+									<button class="btn-xs buttons buttons-success cropper-rotate-btn" type="button"><i class="fa fa-rotate-right"></i></button>
+									<button class="btn-xs buttons buttons-success cropper-scaleX-btn" type="button"><i class="fa fa-arrows-h"></i></button>
+								</div>-->
+									<div class="identity-select">
+										<h2 class="select-id">ID Card - Front and back side</h2>
+										<h2 class="select-passport">Passport - Face photo page</h2>
+									</div>
+
+									<div>
+										<div class="upload-file-box">
+											<div class="upload-img-box">
+												<div class="" id="J_upload_box">
+													<a href="javascript:" id="J_file_wrap">
+
+														<label title="上传图片" for="J_file" class="upload-buttons">
+												<img src="images/upload-icon.png" alt="" />
+							<input type="file" accept="image/jpg,image/jpeg,image/png" name="file" id="J_file" class="hidden" onChange="selectImg(this)">
+                	</label>
+
+													</a>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="" id="J_btn_group">
+										<div class="row">
+											<div class="col-xs-6">
+
+												<div class="cancel-btn common-btn">
+													<a href="javascript:" id="" class="prevBtn" data-dismiss="modal">
+														<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+														<span>Cancel</span>
+													</a>
+												</div>
+											</div>
+											<div class="col-xs-6">
+
+												<div class="submit-btn common-btn">
+													<a href="javascript:" id="J_crop" class="nextBtn">
+														<span><em>Submit</em></span>
+														<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+													</a>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</form>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--上传 end-->
+
+		<div class="online-float-box">
+			<div class="feedback">
+				<span>Feedback</span>
+				<a href="javascript:" data-toggle="modal" data-target="#feedback-modal" id="feedback">
+					<div class="img"><img src="images/float-feedback.svg" alt="" /></div>
+				</a>
+			</div>
+			<div class="service">
+				<span>Chat</span>
+				<a href="javascript:" target="_blank">
+					<div class="img"><img src="images/float-chat.svg" alt="" /></div>
+				</a>
+			</div>
+			<div class="call-back">
+				<span>Callback</span>
+				<a href="javascript:" data-toggle="modal" data-target="#call-back-modal">
+					<div class="img"><img src="images/float-tel.svg" alt="" /></div>
+				</a>
+			</div>
+		</div>
+		<!--feedback-->
+		<div class="modal fade public-modal" id="feedback-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">我们期待您的想法！<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button></h4></div>
+					<div class="modal-body">
+						<form action="">
+							<div class="form-group">
+								<label for="">账户号码：</label>
+								<select name="" class="form-control form-control-chosen">
+									<option value="">同名账户1</option>
+									<option value="">同名账户2</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="">问题类别：</label>
+								<select name="" class="form-control form-control-chosen">
+									<option value="">交易相关</option>
+									<option value="">账户相关</option>
+									<option value="">出入金相关</option>
+									<option value="">其它</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for=""><em>*</em>主旨：</label>
+								<input type="text" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label for="">Comments：</label>
+								<textarea name="" rows="5" cols="5" placeholder="将您的反馈、意见与建议发给我们！" class="form-control"></textarea>
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="cancel-btn common-btn">
+											<a href="javascript:" id="prevBtn" class="prevBtn">
+												<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+												<span>CANCEL</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-6">
+										<div class="submit-btn common-btn">
+											<a href="javascript:" id="nextBtn" class="nextBtn">
+												<span><em>SUBMIT</em></span>
+												<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+						&nbsp;
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--call-back-->
+		<div class="modal fade public-modal" id="call-back-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Call back<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button></h4></div>
+					<div class="modal-body">
+						<form action="">
+							<div class="form-group">
+								<label for=""><em>*</em>Name:</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for=""><em>*</em>Email:</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for=""><em>*</em>Country:</label>
+								<select id="country" class="form-control form-control-chosen" data-placeholder="Please select..." name="country" title="country" onkeyup="selCountry()" onchange="selCountry()">
+
+									<option value="CN" title="+86">中国</option>
+									<option value="GB" title="+44">英国</option>
+									<option value="US" title="+001">美国</option>
+									<option value="CA" title="+1">加拿大</option>
+									<option value="AU" title="+61">澳大利亚</option>
+									<option value="TW" title="+886">中国台湾</option>
+									<option value="ID" title="+62">印度尼西亚</option>
+									<option value="SG" title="+65">新加坡</option>
+									<option value="" title="">-----------</option>
+									<option value="AL" title="+355">阿尔巴尼亚</option>
+									<option value="DZ" title="+213">阿尔及利亚</option>
+									<option value="AD" title="+376">安道尔</option>
+									<option value="AN" title="+599">荷属安的列斯群岛</option>
+									<option value="AG" title="+1268">安提瓜</option>
+									<option value="AR" title="+54">阿根廷</option>
+									<option value="AM" title="+374">亚美尼亚</option>
+									<option value="AW" title="+297">阿鲁巴</option>
+									<option value="AT" title="+43">奥地利</option>
+									<option value="AZ" title="+994">阿塞拜疆</option>
+									<option value="BS" title="+1242">巴哈马群岛</option>
+									<option value="BH" title="+973">巴林</option>
+									<option value="BD" title="+880">孟加拉</option>
+									<option value="BB" title="+268">巴巴多斯</option>
+									<option value="BY" title="+375">白俄罗斯</option>
+									<option value="BE" title="+32">比利时</option>
+									<option value="BZ" title="+501">伯利兹</option>
+									<option value="BJ" title="+229">贝宁</option>
+									<option value="BM" title="+441">百慕大</option>
+									<option value="BT" title="+975">不丹</option>
+									<option value="BO" title="+591">玻利维亚</option>
+									<option value="BA" title="+00387">波黑</option>
+									<option value="BW" title="+267">博茨瓦纳</option>
+									<option value="BR" title="+55">巴西</option>
+									<option value="VG" title="+001284">英属维尔京群岛</option>
+									<option value="BN" title="+673">文莱达鲁萨兰国</option>
+									<option value="BG" title="+359">保加利亚</option>
+									<option value="BF" title="+226">布基纳法索</option>
+									<option value="KH" title="+855">柬埔寨</option>
+									<option value="CM" title="+237">咔麦隆</option>
+									<option value="CA" title="+1">加拿大</option>
+									<option value="IC" title="+34">加那利群岛</option>
+									<option value="CV" title="+238">佛得角</option>
+									<option value="KY" title="+1-345">开曼群岛</option>
+									<option value="CF" title="+236">中非</option>
+									<option value="TD" title="+235">查德</option>
+									<option value="CL" title="+56">智利</option>
+									<option value="CO" title="+57">哥伦比亚</option>
+									<option value="CK" title="+682">库克群岛</option>
+									<option value="CR" title="+506">哥斯达黎加</option>
+									<option value="HR" title="+385">克罗埃西亚</option>
+									<option value="CY" title="+357">塞浦路斯</option>
+									<option value="CZ" title="+420">捷克共和国</option>
+									<option value="DK" title="+45">丹麦</option>
+									<option value="DJ" title="+253">吉布提</option>
+									<option value="DM" title="+1849">多米尼加岛</option>
+									<option value="TP" title="+670">东帝汶</option>
+									<option value="DO" title="+1849">多米尼加共和国</option>
+									<option value="EC" title="+593">厄瓜多尔</option>
+									<option value="EG" title="+20">埃及</option>
+									<option value="SV" title="+503">萨尔瓦多</option>
+									<option value="GQ" title="+240">赤道几内亚共和国</option>
+									<option value="EE" title="+372">爱沙尼亚</option>
+									<option value="ET" title="+251">埃塞俄比亚</option>
+									<option value="FO" title="+298">法罗群岛</option>
+									<option value="FJ" title="+679">斐济群岛</option>
+									<option value="FI" title="+358">芬兰</option>
+									<option value="FR" title="+33">法国</option>
+									<option value="GF" title="+594">法属圭亚那</option>
+									<option value="GA" title="+241">加蓬共和国</option>
+									<option value="GM" title="+220">冈比亚</option>
+									<option value="GE" title="+995">乔治亚</option>
+									<option value="DE" title="+49">德国</option>
+									<option value="GH" title="+233">加纳</option>
+									<option value="GI" title="+350">直布罗陀</option>
+									<option value="GR" title="+30">希腊</option>
+									<option value="GL" title="+45">格陵兰</option>
+									<option value="GD" title="+1473">格瑞那达国</option>
+									<option value="GP" title="+00590">瓜德罗普</option>
+									<option value="GT" title="+502">瓜地马拉</option>
+									<option value="GN" title="+00224">几内亚</option>
+									<option value="GY" title="+592">盖亚那</option>
+									<option value="HT" title="+509">海地</option>
+									<option value="HN" title="+504">洪都拉斯</option>
+									<option value="HK" title="+852">中国香港</option>
+									<option value="HU" title="+36">匈牙利</option>
+									<option value="IS" title="+354">冰岛</option>
+									<option value="IN" title="+91">印度</option>
+									<option value="ID" title="+62">印度尼西亚</option>
+									<option value="IE" title="+353">爱尔兰</option>
+									<option value="IL" title="+00972">以色列</option>
+									<option value="IT" title="+39">意大利</option>
+									<option value="JM" title="+876">牙买加</option>
+									<option value="JO" title="+962">约旦</option>
+									<option value="KZ" title="+7">哈萨克斯坦</option>
+									<option value="KE" title="+254">肯尼亚</option>
+									<option value="KW" title="+965">科威特</option>
+									<option value="KG" title="+996">吉尔吉斯斯坦</option>
+									<option value="LA" title="+856">老挝</option>
+									<option value="LV" title="+371">拉脱维亚</option>
+									<option value="LB" title="+961">黎巴嫩</option>
+									<option value="LS" title="+266">莱索托</option>
+									<option value="LR" title="+231">利比里亚</option>
+									<option value="LI" title="+423">列支敦斯登</option>
+									<option value="LT" title="+370">立陶宛</option>
+									<option value="LU" title="+352">卢森堡</option>
+									<option value="MO" title="+853">中国澳门</option>
+									<option value="MK" title="+389">马其顿</option>
+									<option value="MG" title="+261">马达加斯加</option>
+									<option value="MW" title="+265">马拉维</option>
+									<option value="MY" title="+60">马来西亚</option>
+									<option value="MV" title="+960">马尔代夫</option>
+									<option value="MT" title="00356">马耳他</option>
+									<option value="MH" title="+692">马绍尔群岛</option>
+									<option value="MQ" title="+596">马提尼克岛</option>
+									<option value="MR" title="+222">茅利塔尼亚</option>
+									<option value="MU" title="+230">毛里求斯</option>
+									<option value="MX" title="+52">墨西哥</option>
+									<option value="MD" title="+373">摩尔多瓦</option>
+									<option value="MC" title="+377">摩纳哥</option>
+									<option value="MN" title="+976">蒙古</option>
+									<option value="ME" title="+382">黑山</option>
+									<option value="MS" title="+001664">蒙特塞拉特</option>
+									<option value="MA" title="+212">摩洛哥</option>
+									<option value="MZ" title="+258">莫桑比克</option>
+									<option value="NA" title="+264">纳米比亚</option>
+									<option value="NR" title="+674">瑙鲁</option>
+									<option value="NP" title="+977">尼泊尔</option>
+									<option value="NL" title="+31">荷兰</option>
+									<option value="NC" title="+687">新喀里多尼亚</option>
+									<option value="NZ" title="+64">新西兰</option>
+									<option value="NI" title="+505">尼加拉瓜</option>
+									<option value="NE" title="+227">尼日尔</option>
+									<option value="NO" title="+47">挪威</option>
+									<option value="OM" title="+968">阿曼</option>
+									<option value="PK" title="+92">巴基斯坦</option>
+									<option value="PA" title="+507">巴拿马</option>
+									<option value="PG" title="+675">巴布亚新几内亚</option>
+									<option value="PY" title="+595">巴拉圭</option>
+									<option value="PE" title="+51">秘鲁</option>
+									<option value="PH" title="+63">菲律宾</option>
+									<option value="PL" title="+48">波兰</option>
+									<option value="PT" title="+351">葡萄牙</option>
+									<option value="QA" title="+974">卡塔尔</option>
+									<option value="RE" title="+262">留尼汪岛</option>
+									<option value="RO" title="+40">罗马尼亚</option>
+									<option value="RU" title="+7">俄国</option>
+									<option value="RW" title="+250">卢旺达</option>
+									<option value="WS" title="+685">西萨摩亚</option>
+									<option value="SM" title="+378">圣马力诺共和国</option>
+									<option value="SA" title="+966">沙特阿拉伯</option>
+									<option value="SN" title="+221">塞内加尔</option>
+									<option value="RS" title="+381">塞尔维亚</option>
+									<option value="SC" title="+248">塞舌尔共和国</option>
+									<option value="SL" title="+232">塞拉利昂</option>
+									<option value="SG" title="+65">新加坡</option>
+									<option value="SK" title="+421">斯洛伐克共和国</option>
+									<option value="SI" title="+386">斯洛文尼亚</option>
+									<option value="SB" title="+677">所罗门群岛</option>
+									<option value="ZA" title="+27">南非</option>
+									<option value="KR" title="+82">韩国</option>
+									<option value="ES" title="+34">西班牙</option>
+									<option value="LK" title="+0094">斯里兰卡</option>
+									<option value="KN" title="+1 869">圣基茨</option>
+									<option value="LC" title="+1-758">圣卢西亚</option>
+									<option value="PM" title="(+7)812">圣彼得堡</option>
+									<option value="VC" title="+1784">圣文森特</option>
+									<option value="SR" title="+597">苏里南</option>
+									<option value="SZ" title="+41">瑞士</option>
+									<option value="SE" title="+46">瑞典</option>
+									<option value="CH" title="+41">瑞士</option>
+									<option value="TJ" title="+992">塔吉克斯坦</option>
+									<option value="PF" title="+00689">大溪地</option>
+									<option value="TW" title="+886">中国台湾</option>
+									<option value="TZ" title="+255">坦桑尼亚</option>
+									<option value="TH" title="+66">泰国</option>
+									<option value="TG" title="+228">多哥</option>
+									<option value="TO" title="+675">汤加</option>
+									<option value="TN" title="+216">突尼斯</option>
+									<option value="TR" title="+90">土耳其</option>
+									<option value="TM" title="+993">土库曼</option>
+									<option value="UG" title="+256">乌干达</option>
+									<option value="UA" title="+380">乌克兰</option>
+									<option value="AE" title="+971">阿拉伯联合酋长国</option>
+									<option value="GB" title="+44">英国</option>
+									<option value="US" title="+001">美国</option>
+									<option value="UY" title="+598">乌拉圭</option>
+									<option value="UZ" title="+998">乌兹别克斯坦</option>
+									<option value="VU" title="+00678">瓦努阿图共和国</option>
+									<option value="VA" title="+379">梵蒂冈</option>
+									<option value="VE" title="+58">委内瑞拉</option>
+									<option value="VN" title="+84">越南</option>
+									<option value="YE" title="+967">也门</option>
+									<option value="ZM" title="+260">赞比亚</option>
+								</select>
+
+							</div>
+							<div class="form-group">
+								<label for=""><em>*</em>City:</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for=""><em>*</em>Phone Number:</label>
+								<div class="modal-call-back">
+									<div><span id="CountryNumber">+86</span></div><input type="text" class="form-control" id="phonenumber"></div>
+							</div>
+							<div class="form-group">
+								<label for=""><em>*</em>Comments:</label>
+								<textarea name="" rows="3" cols="" class="form-control"></textarea>
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="cancel-btn common-btn">
+											<a href="javascript:" id="prevBtn" class="prevBtn">
+												<i class=""><img src="images/cancel-btn-arrow.png" alt="" /></i>
+												<span>CANCEL</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-6">
+										<div class="submit-btn common-btn">
+											<a href="javascript:" id="nextBtn" class="nextBtn">
+												<span><em>SUBMIT</em></span>
+												<i class=""><img src="images/submit-btn-arrow.png" alt="" /></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+						&nbsp;
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		
+		
+		<style>
+			.error-box{position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    overflow: hidden;
+    background: rgba(0,0,0,.1);
+    -webkit-overflow-scrolling: touch;
+    outline: 0;}
+    
+    .error-box .error-help-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 8;
+    padding: 10px;
+    background: #fff;
+    color: #333;
+    min-width: 300px;
+    box-shadow: 0 0px 3px 1px #999;
+    }
+		</style>
+		<!--error box-->
+		<div id="error-box"  class="error-box">
+									<div class="error-help-block d-flex align-items-center">
+										<p><img src="images/login-error.svg" alt="" /></p>
+										<span>The password you entered is not strong enough. Your password should contain upper and lowercase Latin characters and numbers, and should not be less than eight characters long.</span>
+									</div>
+								</div>
+		
+		<!--error box end-->
+		
+		
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/chosen-1.1.8.min.js"></script>
+		<script src="js/chosen.js"></script>
+		<script src="js/cropper.min.js"></script>
+		<script src="js/cropper.js"></script>
+		<script src="js/telInput.js"></script>
+		<script src="https://www.jq22.com/demo/jqueryzdygdt201808221029/js/scrollbar.js"></script>
+		<script src="js/jquery-confirm.min.js"></script>
+		<script src="js/steps-animate.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript">
+    new CusScrollBar({
+      contentSelector: '.legal-text-detail', //滚动内容区
+      barSelector: '.scroll_bar', //滚动条
+      sliderSelector: '.scroll_slider' //滚动滑块
+    });
+</script>
+		<script type="text/javascript">
+		
+			$(document).ready(function() {
+				$("#nextBtn").click(function() {
+					var ipt_text=$("#familyname").text();
+					if(ipt_text==""){
+						return false;
+						$("#error-box").delay(300).fadeIn(200).delay(3000).fadeOut(400);
+					}
+				});
+			});
+		</script>
+		<script>
+			//上传证明切换
+			function identity(question) {
+				if(question.value == "2") {
+					$(".select-id").css("display", "block").siblings().css('display', 'none');
+					$(question).css("border-color", "#ddd");
+				} else if(question.value == "1") {
+					$(".select-passport").css("display", "block").siblings().css('display', "none");
+					$(question).css("border-color", "#ddd");
+				}
+			}
+		</script>
+		<script>
+			$(function() {
+				$(".radiospan").bind("click", function() {
+					$(this).addClass("on").siblings().removeClass("on");
+				});
+			});
+		</script>
+		<script>
+			var step = new SetStep({
+				content: '.stepCont',
+				clickAble: false
+			})
+		</script>
+	</body>
+
+</html>

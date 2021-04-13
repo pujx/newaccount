@@ -1,0 +1,28 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Lato Regular'; 
+   	src: 
+   		url('../fonts/Lato/Lato-Regular.ttf'); 
+   }
+  @font-face {
+	font-family: 'Gotham-Light'; 
+   	src: 
+   		url('../fonts/Gotham/Gotham-Light.otf'); 
+   } 
+     @font-face {
+	font-family: 'Gotham-Book'; 
+   	src: 
+   		url('../fonts/Gotham/Gotham-Book.otf'); 
+   } 
+   
+@font-face {
+	font-family: 'DIN-Regular'; 
+   	src: 
+   		url('../fonts/Din/DIN-Regular.otf'); 
+   }
+   
+@font-face {
+	font-family: 'Gotham-Thin'; 
+   	src: 
+   		url('../fonts/Gotham/Gotham-Thin.otf'); 
+   }
