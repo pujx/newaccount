@@ -1069,7 +1069,7 @@ font-size: 30px;
     overflow: hidden;
     padding-top: 15px;
 }
-.legal-text-box .scroll_bar{
+/*.legal-text-box .scroll_bar{
 	position: absolute;
     top: 10px;
     right: 10px;
@@ -1077,14 +1077,15 @@ font-size: 30px;
     height: 90%;
     background-color: #e6e6e6;
 }
-.legal-text-box .scroll_slider{position:absolute;top:0;left:0;width:10px;height:48px;background-color:#003b4d;}
+.legal-text-box .scroll_slider{position:absolute;top:0;left:0;width:10px;height:48px;background-color:#003b4d;}*/
 .legal-text-detail .legal-logo {
   margin-bottom:15px;
   display: block
 }
 
 .legal-pdf-box {
-  margin-top: 25px
+    margin-top: 25px;
+    color: #36363e;
 }
 
 .legal-pdf-box:hover {
@@ -1635,7 +1636,7 @@ font-size: 22px;
   .step1-name {
     font-size: 22px;
   }
-
+.step2, .step3{padding-top: 40px;}
   .page-title {
     margin-left: 0;
     font-size: 16px;
@@ -1656,7 +1657,7 @@ font-size: 22px;
 
   .ystep-container {
     width: 75%;
-   bottom: 45px;
+   bottom: 10px;
   }
 
   .form-control {
@@ -1672,7 +1673,8 @@ font-size: 22px;
   .step4 .step1-name {
     margin: 0;
   }
-
+.step7 .step7-name{margin:30px 0;
+    font-size: 22px;}
   .step3 .bottom-progress-text {
     /*top: 0px;*/
   }
@@ -1694,7 +1696,7 @@ font-size: 22px;
   }
 
   .step5-name {
-    height: 25px;
+    height: 30px;
   }
 
   .step7-l-box {
