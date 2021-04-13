@@ -1634,7 +1634,9 @@ font-size: 22px;
   }
 
   .step1-name {
-    font-size: 22px;
+font-size: 22px;
+    top: 10px;
+    margin-bottom: 20px;
   }
 .step2, .step3{padding-top: 40px;}
   .page-title {
