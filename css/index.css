@@ -1668,7 +1668,7 @@ font-size: 22px;
     width: 75%;
    bottom: 10px;
   }
-.legal-pdf-box i{margin-left: 5px;}
+.legal-pdf-box i{margin-left:10px}
   .form-control,.chosen-container-single .chosen-single {
    height: 42px;
   }
