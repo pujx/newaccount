@@ -1064,20 +1064,34 @@ font-size: 30px;
   -webkit-box-shadow: 0 0 17px 0px rgb(12 12 12 / 17%) inset;
   position:relative;
 }
+
+.legal-text-box .legal-text-detail::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: transparent
+}
+
+.legal-text-box .legal-text-detail::-webkit-scrollbar-track {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #e6e6e6
+}
+
+.legal-text-box .legal-text-detail::-webkit-scrollbar-thumb {
+	height: 40px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #003b4d
+}
+
 .legal-text-box .legal-text-detail {
-   height: 100%;
-    overflow: hidden;
-    padding-top: 15px;
+	height: 150px;
+	overflow: auto;
+	padding-top:10px
 }
-/*.legal-text-box .scroll_bar{
-	position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 10px;
-    height: 90%;
-    background-color: #e6e6e6;
-}
-.legal-text-box .scroll_slider{position:absolute;top:0;left:0;width:10px;height:48px;background-color:#003b4d;}*/
+
 .legal-text-detail .legal-logo {
   margin-bottom:15px;
   display: block
