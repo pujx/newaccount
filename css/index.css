@@ -275,7 +275,7 @@ body.modal-open {
 .modal .common-btn{margin-top: 20px;}
 .common-btn a{display: inline-block;}
 .common-btn i {
-  vertical-align: middle
+  /*vertical-align: middle*/
 }
 .skipBtn{
 	padding-right: 10px;
